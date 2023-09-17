@@ -1,0 +1,39 @@
+#app {
+    width: 100%;
+    font-family: sans-serif;
+}
+
+#sequence {
+    margin: auto auto 1em;
+}
+
+#sequence td {
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#sequence td.inactive {
+    background-color: lightgray;
+    cursor: auto;
+}
+
+#sequence td.correct {
+    background-color: lightgreen;
+    cursor: auto;
+}
+
+#sequence td.wrong {
+    background-color: lightcoral;
+    cursor: auto;
+}
+
+#restart {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
