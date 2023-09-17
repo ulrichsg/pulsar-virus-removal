@@ -6,7 +6,7 @@ module.exports = ({ mode } = { mode: 'production' }) => {
         mode,
         entry: './src/main.tsx',
         output: {
-            publicPath: '/',
+            publicPath: '',
             path: path.resolve(__dirname, 'docs'),
             filename: 'bundle.js'
         },
